@@ -2,8 +2,6 @@
 
 Web sayfaları neticesinde oluşan bir kısım kişisel bilgi ve yerel kullanıma uygun verilerin kullanıcı tarafında tarayıcı içinde saklanmasına yönelik teknikler ve araçlar (IE UserData, FlashStorage,DojoStorage vb) oldukça eskiye dayanmaktadır. Ancak bu teknikler ve araçlar ihtiyaçları tam karşılayamadığı için arayışlar devam etmiş ve HTML5 standartlarının devreye girmesi developer dünyası için yeni ve farklı imkanları ortaya çıkarmıştır.
 
-[Coockie](https://www.w3schools.com/js/js_cookies.asp "Coockie") kullanımı zaten herkes tarafından bilindiği için kısaca LocalStorage üzerinde duracak ve WebSQL ve IndexedDB ile ilgili örneklere yer vereceğiz.
-
 HTML5 ile birlikte Client Side veri depolama ile birlikte yeni bir takım fırsatlar ve avantajlar da ortaya çıkmıştır.
 - Server tarafında sistem ve kaynak verimliği
 - Client tarafında daha yüksek performans ve erişilebilirlik
@@ -33,6 +31,8 @@ Developer tarafından ihtiyaç duyulan yerde ve şekilde kullanılabilir olmakla
 - Bankacılık ve kredi kartı işlemleri (sadece SessionStorage)
 
 ------------
+[Coockie](https://www.w3schools.com/js/js_cookies.asp "Coockie") kullanımı zaten herkes tarafından bilindiği için kısaca LocalStorage üzerinde duracak ve WebSQL ve IndexedDB ile ilgili örneklere yer vereceğiz.
+
 #### 1. Cookies (Çerezler)
 Client tarafında veri barındırmanın en eski yöntemlerinin başında Cookie kullanımı gelmektedir. Ancak bir kısım güvenlik zaafiyetleri oluşturması ihtimali nedeniyle, HTML5  sonrası yerini LocalStorage & SessionStorage bırakmaya başlamıştır. Ancak bununla birlikte tüm internet tarayıcıları halen cookie desteğine aynen devam ettirmektedir.
 
